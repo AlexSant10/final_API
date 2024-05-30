@@ -8,10 +8,6 @@ Clonaremos el repositorio
 git clone git@github.com:ANDIRIOUS/final_API
 
 ```
-Se instala las dependencias
-```
-pip install -r requirements.txt
-```
 
 Ahora se corre lo siguiente
 
@@ -21,16 +17,6 @@ docker-compose up -d
 
 ```
 
-Para cargar los datos hacemos, con esto logramos cargar los datos a una base Mongo y una  Neo4J
-
-```
-python main.py
-
-```
-Después, ejecutamos el siguiente
-```
-python query.py
-```
 
 El proceso tomará algo de tiempo por wait-for-ir.sh
 
